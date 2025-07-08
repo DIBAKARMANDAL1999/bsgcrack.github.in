@@ -1,2 +1,2 @@
 # BSG CRACK App
-Complete App Structure
+Developed by Mr. D. Mandal
