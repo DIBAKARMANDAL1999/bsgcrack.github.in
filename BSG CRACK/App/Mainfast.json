@@ -1,0 +1,22 @@
+{
+  "name": "BSG Crack",
+  "short_name": "BSGCrack",
+  "description": "Scouting learning and exam preparation app",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#007acc",
+  "theme_color": "#007acc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "plan": "Basic Monthly",
+    "price": 15,
+    "features": ["PDF Access", "MCQ Test", "Monthly Exam"]
+  },
+  {
+    "plan": "Pro Monthly",
+    "price": 49,
+    "features": ["All PDFs", "Unlimited Exams", "Priority Support"]
+  },
+  {
+    "plan": "Yearly",
+    "price": 499,
+    "features": ["All Features", "1 Year Access", "Certificate Verification"]
+  }
+]

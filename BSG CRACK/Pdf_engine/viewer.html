@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PDF Viewer | BSG Crack</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    iframe {
+      width: 90%;
+      height: 90vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>📘 BSG Crack PDF Viewer</h2>
+  <select id="bookSelect"></select>
+  <iframe id="pdfFrame"></iframe>
+
+  <script type="module">
+    import { loadBookList } from './sync_books.js';
+
+    const select = document.getElementById('bookSelect');
+    const frame = document.getElementById('pdfFrame');
+
+    loadBookList().then(books => {
+      books.forEach(book => {
+        const option = document.createElement('option');
+        option.value = book.link;
+        option.textContent = book.title;
+        select.appendChild(option);
+      });
+
+      // Load first book
+      frame.src = books[0].link;
+    });
+
+    select.addEventListener('change', () => {
+      frame.src = select.value;
+    });
+  </script

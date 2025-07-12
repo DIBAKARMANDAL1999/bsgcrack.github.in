@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Video - BSG Gallery</title>
+</head>
+<body>
+  <h2>🎥 Upload a Video</h2>
+  <form id="videoForm">
+    <input type="file" accept="video/*" required />
+    <br /><br />
+    <button type="submit">Upload</button>
+  </form>
+
+  <script>
+    document.getElementById("videoForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Video uploaded for approval (demo only).");
+      // Upload to server later
+    });
+  </script>
+</body>
+</html>

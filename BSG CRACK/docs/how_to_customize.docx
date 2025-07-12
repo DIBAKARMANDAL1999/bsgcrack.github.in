@@ -1,0 +1,10 @@
+HOW TO CUSTOMIZE BSG CRACK
+
+1. To change logo: Replace favicon/logo in assets folder
+2. To update pricing plans: Edit payment/pricing_table.json
+3. To modify exams: Go to exam_engine and edit .js files
+4. To add new PDFs:
+- Update bsg_books.json
+- Place files in your storage or server
+
+For more advanced use (Firebase integration), contact admin.

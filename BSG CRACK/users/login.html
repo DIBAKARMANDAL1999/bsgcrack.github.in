@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - BSG Crack</title>
+</head>
+<body>
+  <h2>User Login</h2>
+  <form id="loginForm">
+    <input type="email" placeholder="Email" required /><br />
+    <input type="password" placeholder="Password" required /><br />
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Logged in! Redirecting to Dashboard (Demo)");
+      window.location.href = "profile_dashboard.html";
+    });
+  </script>
+</body>
+</html>

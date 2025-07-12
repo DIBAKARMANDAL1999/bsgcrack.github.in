@@ -1,0 +1,10 @@
+{
+  "last_sync": "2025-07-11T00:00:00Z",
+  "sources": [
+    "https://bsgindia.org/publication.php",
+    "https://rrb.gov.in/latest-notifications",
+    "https://scout.org/news"
+  ],
+  "sync_frequency": "daily",
+  "status": "active"
+}

@@ -1,0 +1,11 @@
+BSG CRACK – SETUP GUIDE
+
+Step 1: Download and extract the zip folder.
+Step 2: Open index.html with any browser or editor like Spck/GitHub Pages.
+Step 3: Configure your files:
+- Add your PDFs to pdf_engine/
+- Use exam_engine/ for auto-question generation
+- Update legal and gallery sections as needed
+Step 4: Optional Firebase/Backend setup for login/payment
+
+For support: bsgcrack@yahoo.com

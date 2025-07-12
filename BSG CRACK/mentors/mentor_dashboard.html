@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mentor Dashboard - BSG Crack</title>
+</head>
+<body>
+  <h2>Welcome, Mentor!</h2>
+
+  <div>
+    <label for="studentName">Track Student Activity:</label>
+    <input type="text" id="studentName" placeholder="Enter student's name" />
+    <button onclick="trackActivity()">Track</button>
+  </div>
+
+  <div id="resultArea"></div>
+
+  <script type="module">
+    import { getStudentActivity } from './activity_tracker.js';
+
+    window.trackActivity = () => {

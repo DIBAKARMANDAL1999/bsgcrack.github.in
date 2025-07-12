@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Image - BSG Gallery</title>
+</head>
+<body>
+  <h2>📸 Upload an Image</h2>
+  <form id="imageForm">
+    <input type="file" accept="image/*" required />
+    <br /><br />
+    <button type="submit">Upload</button>
+  </form>
+
+  <script>
+    document.getElementById("imageForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Image uploaded for approval (demo only).");
+      // Upload to server/cloud later
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Dashboard</title>
+</head>
+<body>
+  <h2>Welcome, [Username]</h2>
+  <ul>
+    <li><a href="#" onclick="generateID()">Download ID Card</a></li>
+    <li><a href="#" onclick="generateCertificate()">Download Certificate</a></li>
+    <li><a href="#" onclick="checkWallet()">Check Wallet</a></li>
+  </ul>
+
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <script type="module">
+    import { generateIDCard } from './idcard_generator.js';
+    import { generateCertificate } from './certificate_generator.js';
+    import { checkWalletBalance } from './wallet.js';
+
+    window.generateID = () => generateIDCard("Dibakar Mandal", "dibakar@bsgcrack.in");
+    window.generateCertificate = () => generateCertificate("Dibakar Mandal", "Monthly Exam", "85%");
+    window.checkWallet = () => alert("Balance: ₹50 (Demo)");
+  </script>
+</body>
+</html>
